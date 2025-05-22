@@ -12,6 +12,15 @@ proxy_sources = [
     "https://www.proxysharp.com/proxies/socks5/us",
     "https://proxyfreeonly.com/free-proxy-list/united-states",
     "https://proxylib.com/free-proxy-list/us/",
+
+    # 🔥 NEW SOCKS5 Sources below
+    "https://spys.one/en/socks-proxy-list/",                # Free Socks List
+    "https://proxylib.com/proxies-by-types/socks5/",        # ProxyLib SOCKS5 full list
+    "https://www.proxysharp.com/proxies/socks5",            # ProxySharp main SOCKS5
+    "https://dicloak.com/",                                 # DICloak
+    # The following two are unknown or not directly scrapeable, but kept for ref
+    # "https://proxymist.com/",                             # ProxyMist (down/missing)
+    # "https://freeproxyonline.com/",                       # Free Proxy Online (no direct list)
 ]
 
 def extract_proxies(text):
@@ -60,3 +69,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
