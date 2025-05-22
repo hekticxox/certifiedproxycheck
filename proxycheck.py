@@ -55,5 +55,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-#ok at the end of this script i want it to list the state/city of the proxy and response rate
