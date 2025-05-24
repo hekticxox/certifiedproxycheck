@@ -1,0 +1,26 @@
+sources:
+  - "https://proxyscrape.com/free-proxy-list/united-states"
+  - "https://sockslist.us/"
+  - "https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks5/data.txt"
+  - "http://free-proxy.cz/en/proxylist/country/US/socks5/ping/all"
+  - "https://proxycompass.com/free-proxies/north-america/united-states/"
+  - "https://fineproxy.org/free-proxies/north-america/united-states/"
+  - "https://www.proxysharp.com/proxies/socks5/us"
+  - "https://proxyfreeonly.com/free-proxy-list/united-states"
+  - "https://proxylib.com/free-proxy-list/us/"
+  - "https://spys.one/en/socks-proxy-list/"
+  - "https://proxylib.com/proxies-by-types/socks5/"
+  - "https://www.freeproxy.world/?type=socks5"
+  - "https://proxy-tools.com/proxy/socks"
+  - "https://proxy5.net/free-proxy"
+  - "https://www.proxyrack.com/free-proxy-list/"
+  - "https://oxylabs.io/products/free-proxies"
+  - "https://www.webshare.io/features/free-proxy"
+  - "https://github.com/proxifly/free-proxy-list"
+  - "https://dicloak.com/"
+output_file: "proxies.txt"
+output_format: "txt"
+thread_count: 16
+auto_feed_checker: false
+checker_script: "proxycheck.py"
+checker_config: null
